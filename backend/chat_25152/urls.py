@@ -41,9 +41,9 @@ urlpatterns = [
     path("home/", include("home.urls")),
 ]
 
-admin.site.site_header = "chat"
-admin.site.site_title = "chat Admin Portal"
-admin.site.index_title = "chat Admin"
+admin.site.site_header = "chatBack"
+admin.site.site_title = "chatBack Admin Portal"
+admin.site.index_title = "chatBack Admin"
 
 # swagger
 api_info = openapi.Info(
